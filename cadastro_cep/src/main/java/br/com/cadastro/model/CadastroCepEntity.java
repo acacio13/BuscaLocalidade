@@ -20,15 +20,7 @@ public class CadastroCepEntity {
 	@Column(name = "FAIXA_FIM", nullable = false)
 	private int faixaFim;
 	
-	private int price;
-
-	public int getPrice() {
-		return price;
-	}
-
-	public void setPrice(int price) {
-		this.price = price;
-	}
+	
 
 	public int getId() {
 		return id;
